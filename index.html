@@ -43,6 +43,9 @@
     <button id="btn-load" disabled>📥 Загрузить</button>
     <p id="status"></p>
 
+    from js import window
+web_app = window.Telegram.WebApp
+web_app.ready()
     <script type="py">
         from pyscript import document, window
         import json
